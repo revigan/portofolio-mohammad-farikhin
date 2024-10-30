@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Mohammad Farikhin</title>
+    <!--Feather icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Material icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+icons"
+    />
+  </head>
+
+  <body>
+    <!--Nav-bar start-->
+    <nav class="navbar" x-data>
+      <a href="#" class="navbar-logo"
+        >REVIG<i class="bi bi-magnet-fill"></i>N'S</a
+      >
+      <div class="navbar-nav">
+        <a href="#home">HOME <i class="bi bi-house-door-fill"></i></a>
+        <a href="#about">ABOUT <i class="bi bi-archive-fill"></i></a>
+        <a href="#tools"> TOOLS <i class="bi bi-tools"></i></a>
+        <a href="#game"> GAME <i class="bi bi-robot"></i></a>
+        <a href="#contact">CONTACT <i class="bi bi-telephone-fill"></i></a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i class="bi bi-search"></i></a>
+        <a href="#" id="hamburger-menu" @click.prevent
+          ><i class="bi bi-list"></i
+        ></a>
+      </div>
+      <!-- Search Form Start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i class="bi bi-search"></i></label>
+      </div>
+      <!-- Search Form End-->
+    </nav>
+    <!--Nav-bar end-->
+    <!--Hero section start-->
+    <section class="hero" id="home">
+      <main class="left">
+        <h2>Hello,Its'me</h2>
+        <h1><span class="multiple-text">Farikhin</span></h1>
+        <h2>And this is My <span>Social Media</span></h2>
+        <div class="social-icons-container">
+          <div class="sosial-icons">
+            <a href="https://web.facebook.com/mohammad.farikhin.39" class="fb"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/farikhinmopqr_/?next=%2F"
+              class="ig"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="http://wa.me/6281215413573?text=assalamualaikum" class="wa"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+            <a href="https://x.com/farikhinmopqr" class="tw"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+        <a href="#about" class="cta"><strong>About Me!</strong></a>
+      </main>
+      <main class="right">
+        <div class="shadow"></div>
+        <div class="bowl">
+          <div class="liquid"></div>
+        </div>
+      </main>
+    </section>
+    <!--Hero section end-->
+
+    <!--About Section start-->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="title-about">
+            <h2>About <span>Me</span></h2>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center">
+            <img
+              src="img/IMG_20240625_151848.jpg"
+              alt="Profile Picture"
+              class="img-fluid rounded-circle"
+            />
+          </div>
+          <div class="col-md-6">
+            <table class="about-table">
+              <tr>
+                <td>Nama:</td>
+                <td>Mohammad Farikhin</td>
+              </tr>
+              <tr>
+                <td>Alamat:</td>
+                <td>Jobokuto RT 09/03, Jepara</td>
+              </tr>
+              <tr>
+                <td>Prodi:</td>
+                <td>Teknik Informatika</td>
+              </tr>
+              <tr>
+                <td>Hobi:</td>
+                <td>Main Bola</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--About Section end-->
+
+    <!--Tools Section start-->
+    <section class="tools-section" id="tools">
+      <div class="container">
+        <div class="row">
+          <div class="title-tools">
+            <h2><span>Our</span> Tools</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="tool-item">
+              <i class="fab fa-html5"></i>
+              <h3>HTML</h3>
+              <p>Penggunaan HTML 5 dalam menyusun halaman web.</p>
+              <span class="hover-text">
+                <a
+                  href="https://www.w3schools.com/html/default.asp"
+                  style="color: black"
+                  >Lebih lanjut tentang HTML</a
+                >
+              </span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="tool-item">
+              <i class="fab fa-css3-alt"></i>
+              <h3>CSS</h3>
+              <p>Berguna dalam menata halaman web dengan CSS3.</p>
+              <span class="hover-text">
+                <a
+                  href="https://www.w3schools.com/css/default.asp"
+                  style="color: black"
+                  >Lebih lanjut tentang CSS</a
+                >
+              </span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="tool-item">
+              <i class="fab fa-js-square"></i>
+              <h3>JavaScript</h3>
+              <p>Menggunakan JavaScript untuk pengembangan web interaktif.</p>
+              <span class="hover-text">
+                <a
+                  href="https://www.w3schools.com/js/default.asp"
+                  style="color: black"
+                  >Lebih lanjut tentang JavaScript</a
+                >
+              </span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="tool-item">
+              <i class="fab fa-bootstrap"></i>
+              <h3>Bootstrap</h3>
+              <p>Membuat tata letak responsif dengan Bootstrap.</p>
+              <span class="hover-text">
+                <a
+                  href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+                  style="color: black"
+                  >Lebih lanjut tentang Bootstrap</a
+                >
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tools section end -->
+
+    <!-- Game Section start -->
+    <section class="game" id="game">
+      <div class="wrapper">
+        <div class="status-bar">
+          <div id="timer">Time: 0s</div>
+          <div id="attempts">Attempts: 0</div>
+        </div>
+        <ul class="cards">
+          <li class="card">
+            <div class="view front-view">
+              <span class="material-icons"><i class="bi bi-question"></i></span>
+            </div>
+            <div class="view back-view">
+              <img src="img/img-1.png" alt="card-img" />
+            </div>
+          </li>
+          <li class="card">
+            <div class="view front-view">
+              <span class="material-icons"><i class="bi bi-question"></i></span>
+            </div>
+            <div class="view back-view">
+              <img src="img/img-2.png" alt="card-img" />
+            </div>
+          </li>
+          <li class="card">
+            <div class="view front-view">
+              <span class="material-icons"><i class="bi bi-question"></i></span>
+            </div>
+            <div class="view back-view">
+              <img src="img/img-3.png" alt="card-img" />
+            </div>
+          </li>
+          <li class="card">
+            <div class="view front-view">
+              <span class="material-icons"><i class="bi bi-question"></i></span>
+            </div>
+            <div class="view back-view">
+              <img src="img/img-4.png" alt="card-img" />
+            </div>
+          </li>
+          <li class="card">
+            <div class="view front-view">
+              <span class="material-icons"><i class="bi bi-question"></i></span>
+            </div>
+            <div class="view back-view">
+              <img src="img/img-5.png" alt="card-img" />
+            </div>
+          </li>
+          <li class="card">
+            <div class="view front-view">
+              <span class="material-icons"><i class="bi bi-question"></i></span>
+            </div>
+            <div class="view back-view">
+              <img src="img/img-6.png" alt="card-img" />
+            </div>
+          </li>
+          <li class="card">
+            <div class="view front-view">
+              <span class="material-icons"><i class="bi bi-question"></i></span>
+            </div>
+            <div class="view back-view">
+              <img src="img/img-7.png" alt="card-img" />
+            </div>
+          </li>
+          <li class="card">
+            <div class="view front-view">
+              <span class="material-icons"><i class="bi bi-question"></i></span>
+            </div>
+            <div class="view back-view">
+              <img src="img/img-8.png" alt="card-img" />
+            </div>
+          </li>
+          <li class="card">
+            <div class="view front-view">
+              <span class="material-icons"><i class="bi bi-question"></i></span>
+            </div>
+            <div class="view back-view">
+              <img src="img/img-1.png" alt="card-img" />
+            </div>
+          </li>
+          <li class="card">
+            <div class="view front-view">
+              <span class="material-icons"><i class="bi bi-question"></i></span>
+            </div>
+            <div class="view back-view">
+              <img src="img/img-2.png" alt="card-img" />
+            </div>
+          </li>
+          <li class="card">
+            <div class="view front-view">
+              <span class="material-icons"><i class="bi bi-question"></i></span>
+            </div>
+            <div class="view back-view">
+              <img src="img/img-3.png" alt="card-img" />
+            </div>
+          </li>
+          <li class="card">
+            <div class="view front-view">
+              <span class="material-icons"><i class="bi bi-question"></i></span>
+            </div>
+            <div class="view back-view">
+              <img src="img/img-4.png" alt="card-img" />
+            </div>
+          </li>
+          <li class="card">
+            <div class="view front-view">
+              <span class="material-icons"><i class="bi bi-question"></i></span>
+            </div>
+            <div class="view back-view">
+              <img src="img/img-5.png" alt="card-img" />
+            </div>
+          </li>
+          <li class="card">
+            <div class="view front-view">
+              <span class="material-icons"><i class="bi bi-question"></i></span>
+            </div>
+            <div class="view back-view">
+              <img src="img/img-6.png" alt="card-img" />
+            </div>
+          </li>
+          <li class="card">
+            <div class="view front-view">
+              <span class="material-icons"><i class="bi bi-question"></i></span>
+            </div>
+            <div class="view back-view">
+              <img src="img/img-7.png" alt="card-img" />
+            </div>
+          </li>
+          <li class="card">
+            <div class="view front-view">
+              <span class="material-icons"><i class="bi bi-question"></i></span>
+            </div>
+            <div class="view back-view">
+              <img src="img/img-8.png" alt="card-img" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--gameI Section End-->
+
+    <!--Contact Sectiom start-->
+    <section id="contact" class="contact">
+      <h2>Contact <span>Us</span></h2>
+      <p>Untuk Informasi Lebih Lanjut</p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9426.72774246023!2d110.66748005653173!3d-6.5907573333398535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e711f02cdbc3c09%3A0x206be70ed658281b!2sAlun-Alun%20Jepara%201!5e0!3m2!1sid!2sid!4v1730216966943!5m2!1sid!2sid"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form action="">
+          <div class="input-group">
+            <i class="bi bi-person"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i class="bi bi-envelope"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i class="bi bi-telephone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <div class="input-group">
+            <i class="bi bi-geo-alt"></i>
+            <select>
+              <option value="" disabled selected>Pilih Provinsi</option>
+              <option value="jakarta">Banten</option>
+              <option value="jakarta">Jakarta</option>
+              <option value="bandung">Jawa Barat</option>
+              <option value="surabaya">Jawa Timur</option>
+              <option value="surabaya">Jawa Tengah</option>
+              <option value="surabaya">Yogyakarta</option>
+              <option value="surabaya">Lainnya</option>
+            </select>
+          </div>
+          <button type="submit" class="btn">
+            <a href="http://wa.me/6281215413573?text=assalamualaikum"
+              >Kirim Pesan</a
+            >
+          </button>
+        </form>
+      </div>
+    </section>
+    <!--Contact Section End-->
+
+    <!--Footer Start-->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/farikhinmopqr_/?next=%2F"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://x.com/farikhinmopqr"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://web.facebook.com/mohammad.farikhin.39"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="http://wa.me/6281215413573?text=assalamualaikum"
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
+      </div>
+      <div class="links">
+        <div class="box">
+          <a href="#home"><i class="bi bi-house-door-fill"></i></a>
+        </div>
+        <div class="box">
+          <a href="#about"><i class="bi bi-archive-fill"></i></a>
+        </div>
+        <div class="box">
+          <a href="#tools"><i class="bi bi-tools"></i></a>
+        </div>
+        <div class="box">
+          <a href="#game"><i class="bi bi-robot"></i></a>
+        </div>
+        <div class="box">
+          <a href="#contact"><i class="bi bi-telephone-fill"></i></a>
+        </div>
+      </div>
+      <div class="credit">
+        <p>
+          Created by<a href="https://www.instagram.com/farikhinmopqr_/"
+            ><i class="glyphicon glyphicon-pushpin"></i>Mohammad Farikhin. |
+            &copy; 2024.</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!--Footer End-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!--Feather icons-->
+    <script>
+      feather.replace();
+    </script>
+    <!--My JavaScript-->
+    <script src="script.js"></script>
+  </body>
+</html>
